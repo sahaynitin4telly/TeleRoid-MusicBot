@@ -1,29 +1,29 @@
 import os
 from VCsMusicBot.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Hits /help for more info."
+      START_MSG = "**Hello 🙋‍♂️ [{}](tg://user?id={})!**\n\n🤖 I'm an advanced bot created by **@TheTeleRoid** for playing music in the voice chats of Telegram Groups & Channels.\n\n Hits /help for more info about this Bot."
       HELP_MSG = [
         ".",
 f"""
 **Hello, Welcome to {PROJECT_NAME}
 
-⭕ I can play music in your group's voice chat as well as channel voice chats.
+📌 I can play music in your group's voice chat as well as channel voice chats.
 
-⭕ Assistant: @{ASSISTANT_NAME}\n\nClick Next ➡️ for instructions.**
+📌 Assistant: @{ASSISTANT_NAME}\n\nClick Next ➡️ for instructions.**
 """,
 
 f"""
 **Setting up**
 
-1) Make bot admin (Group and in channel if use cplay)
-2) Start a voice chat
-3) Try /play <song name> for the first time by an admin
+~ Make bot admin (Group and in channel if use cplay)
+~ Start a voice chat
+~ Try /play <song name> for the first time by an admin
  If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry.
 
 **For Channel Music Play**
-1) Make me admin of your channel.
-2) Send /userbotjoinchannel in linked group.
-3) Now send commands in linked group.
+~ Make me admin of your channel.
+~ Send /userbotjoinchannel in linked group.
+~ Now send commands in linked group.
 
 **Commands**
 
@@ -51,7 +51,7 @@ f"""
 f"""
 **=>> Channel Music Play 👨‍🎤**
 
-**⭕ For linked group admins only:**
+**🧲 For linked group admins only:**
 
 - /cplay <song name>: Play song you requested.
 - /cdplay <song name>: Play song you requested via deezer.
@@ -77,20 +77,20 @@ f"""
 """,
 
 f"""
-**=>> More tools 😬**
+**=>> More tools 🛠**
 
 - /musicplayer <on/off> : Enable/Disable Music player
 - /reload: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
 """,
 f"""
-**=>> Song/Vid Download 📥**
+**=>> Song/Vid Download.... 📥**
 - /video [song mame]: Download video song from youtube
 - /song [song name]: Download audio song from youtube
 - /saavn [song name]: Download song from saavn
 - /deezer [song name]: Download song from deezer
 
-**=>> Search Tools 🔍**
+**=>> Search Tools.....🔍**
 - /search [song name]: Search youtube for songs
 - /lyrics [song name]: Get song lyrics
 """,
