@@ -14,6 +14,9 @@
   </a>
 </p>
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=PredatorHackerzZ/TeleRoid-MusicBot&label=Profile%20views&color=0e75b6&style=flat" alt="PredatorHackerzZ" /> </p>
+
+                
 ## Give your 💙
 
 Before clicking on deploy to heroku just click on fork and star just below
