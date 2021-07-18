@@ -14,7 +14,7 @@ async def addchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Add me as admin of yor group first</b>",
+            "<b>Add me as admin of your group with all Permission First \n**@TheTeleRoid**</b>",
         )
         return
 
@@ -34,11 +34,11 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @VCsMusicPlayer to your Group and try again</b>",
+            "\n\nOr manually add @Kiara_Singhania to your Group and try again</b>",
         )
         return
     await message.reply_text(
-        "<b>helper userbot joined your chat</b>",
+        "<b>helper userbot joined your chat\n\n Thanks For Use Meh! Bot ❤</b>",
     )
 
 
@@ -109,10 +109,10 @@ async def addcchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            "\n\nOr manually add @VCsMusicPlayer to your Group and try again</b>",
+            "\n\nOr manually add @Kiara_Singhania to your Group and try again</b>",
         )
         return
     await message.reply_text(
-        "<b>helper userbot joined your channel</b>",
+        "<b>helper userbot joined your channel\n\n**@TheTeleRoid**</b>",
     )
     
