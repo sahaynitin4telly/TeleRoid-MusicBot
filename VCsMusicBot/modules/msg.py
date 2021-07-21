@@ -1,7 +1,7 @@
 import os
 from VCsMusicBot.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 🙋‍♂️ [{}](tg://user?id={})!**\n\n🤖 I'm an advanced bot created by **@TheTeleRoid** for playing music in the voice chats of Telegram Groups & Channels.\n\n Hits /help for more info about this Bot."
+      START_MSG = "**Hello 🙋‍♂️ [{}](tg://user?id={})!**\n\n🤖 I'm an advanced bot created by **@Tellybots for playing music in the voice chats of Telegram Groups & Channels.\n\n Hits /help for more info about this Bot."
       HELP_MSG = [
         ".",
 f"""
